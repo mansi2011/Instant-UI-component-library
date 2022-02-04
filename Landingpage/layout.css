@@ -1,0 +1,139 @@
+.nav-container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    /* padding: 0 1rem; */
+    color: var(--white-font-color);
+    background-color: var(--landing-fonts-color);   
+    
+}
+
+.navbrand{
+   
+    background-color: var(--white-font-color);
+    color: var(--black-font-color);
+    padding: 1rem;
+    align-self: center;
+    border-radius: 10rem;
+    margin-left: 1rem;
+}
+
+.navbrand:hover{
+    background-color: var(--landing-hover-color);
+    opacity: 0.9;
+}
+
+.brand{
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav-item{
+    display: flex;
+}
+
+.menu-link{
+    padding: 0 1rem;
+    display: inline;
+}
+
+.option-link{
+    text-decoration: none;
+    color: var(--white-font-color);
+}
+
+.icon-link{
+    margin-left: auto;
+}
+
+.menu-link:hover{
+    color: var(--landing-hover-color);
+    opacity: 0.5;
+}
+
+
+.drawer-container{
+    display: flex;
+}
+
+.sidebar-container{
+    height: 60rem;
+    width: 40rem;
+    border: 1px solid var(--landing-hover-color);
+    opacity: 1;
+    overflow-y: scroll;
+
+}
+
+.main-container{
+    height: 60rem;
+    width: fit-content;
+    overflow-y: scroll;
+}
+
+.sidebar-item-list{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar-item{
+    text-decoration: none;
+    padding: 1rem 0 ;
+    color: var(--black-font-color);
+}
+
+.sidebar-item:hover{
+    background-color: var(--landing-hover-color);
+    border-style: none;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.intro-container{
+    padding: 1rem;
+}
+
+
+.component-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.component{
+   background-color: var(--landing-hover-color);
+   
+}
+
+.component-name{
+    text-decoration: none;
+    display: inline;
+    padding: 1rem;
+    border: 1px solid var(--landing-fonts-color);
+    border-radius: 1rem;
+    color: var(--landing-fonts-color);
+    margin: 1rem;
+    align-items: center;
+}
+
+.component-name:hover{
+    cursor: pointer;
+}
+
+.footer{
+    background-color: var(--landing-fonts-color);
+    color: var(--white-font-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-name{
+    font-weight: bold;
+    font-size: 2rem;
+}

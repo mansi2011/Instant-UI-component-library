@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("./Landingpage/layout.css");
+
+
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    font-size: 1.7rem;
+    line-height: 1.6;
+    
+}
+
+:root{
+    --landing-fonts-color: #b45309;
+    --white-font-color: #ffffff;
+    --landing-hover-color: #fafaf9;
+    --black-font-color: #000000;
+    --green-font-color:#059669;
+
+}
+
+/* section css */
+
+#hero-container{
+    background-image: url('Resources/hero-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    color: var(--landing-fonts-color);
+
+}
+
+.hero-caption{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-info{
+    font-size: 2rem;
+}
+
+.hero-button{
+    padding: 1rem 2rem; 
+    border: var(--landing-fonts-color) 1px solid;  
+    color: var(--landing-fonts-color);
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div a {
+    margin: 0 1rem;
+}
+
+.hero-button:hover{
+    border: var(--landing-fonts-color) 2px solid;
+    font-size: 2rem;
+}
+
+.link{
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    color: var(--landing-hover-color);
+    opacity: 0.5;
+}
+
+header a:hover{
+    color: var(--landing-fonts-color);
+}

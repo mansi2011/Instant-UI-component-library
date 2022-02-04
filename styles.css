@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("./Landingpage/layout.css");
+@import url("./Components/Avatar/Avatar.css");
 
 
 html{
@@ -24,6 +25,7 @@ body{
     --landing-hover-color: #fafaf9;
     --black-font-color: #000000;
     --green-font-color:#059669;
+    --border-radius: 10rem;
 
 }
 

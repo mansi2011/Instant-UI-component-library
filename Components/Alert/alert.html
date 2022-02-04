@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0026fec354.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document| Alert</title>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="navbrand">
+        <i class="fa fa-italic" aria-hidden="true"></i><i class="brand">UI</i>
+        </div>
+        <ul class="nav-item">
+            <li class="menu-link">
+              <a class="option-link"  href="index.html">Home</a>
+            </li>
+            <li class="menu-link">
+              <a  class="option-link" href="#">Docs</a>
+            </li>
+        </ul>
+        <div class="icon-link">
+                <li class="menu-link"><i class="fa fa-github" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+            </div>
+    </nav>
+
+    <div class="drawer-container">
+        <aside class="sidebar-container">
+            <ul class="sidebar-item-list">
+                <a href="" class="sidebar-item">Avatar</a>
+                <a href="" class="sidebar-item component-active">Alert</a>
+                <a href="" class="sidebar-item">Badge</a>
+                <a href="" class="sidebar-item">Button</a>
+                <a href="" class="sidebar-item">Card</a>
+                <a href="" class="sidebar-item">Images</a>
+                <a href="" class="sidebar-item">Input</a>
+                <a href="" class="sidebar-item">Text Utilities</a>
+                <a href="" class="sidebar-item">Lists</a>
+                <a href="" class="sidebar-item">Navigation</a>
+                <a href="" class="sidebar-item">Modal</a>
+                <a href="" class="sidebar-item">Rating</a>
+                <a href="" class="sidebar-item">Toast/Snackbar</a>
+                <a href="" class="sidebar-item">Simplified Grid</a>
+            </ul>
+        </aside>
+        <main class="main-container">
+            <div class="intro-container">
+               <h1>Alerts</h1>
+               <p>Alert provides contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+
+               <p>There are types of alerts available, for success use class success-alert, for error use class danger-alert, for warning use class warn-alert and some others.</p>
+            </div>
+            
+            <div class="alert-container">
+                <div class="alert-item primary-alert">This is a primary alert—check it out!</div>
+                <div class="alert-item secondary-alert">This is a secondary alert—check it out!</div>  
+                <div class="alert-item success-alert">Success! This alert box indicates a successful or positive action.</div>
+                <div class="alert-item info-alert">Info! This alert box indicates a neutral informative change or action.</div>
+                <div class="alert-item warn-alert">Warning! This alert box indicates a warning that might need attention.</div>
+                <div class="alert-item danger-alert">Danger! This alert box indicates a dangerous or potentially negative action.</div>   
+            </div>
+
+            <div class="carbon-container">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-item%2520primary-alert%2522%253EThis%2520is%2520a%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-item%2520secondary-alert%2522%253EThis%2520is%2520a%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-item%2520success-alert%2522%253ESuccess%21%2520This%2520alert%2520box%2520indicates%2520a%2520successful%2520or%2520positive%2520%2509%2509%2509%2509%2509action.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-item%2520info-alert%2522%253EInfo%21%2520This%2520alert%2520box%2520indicates%2520a%2520neutral%2520informative%2520change%2520or%2520%2509%2509%2509%2509%2509action.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-item%2520warn-alert%2522%253EWarning%21%2520This%2520alert%2520box%2520indicates%2520a%2520warning%2520that%2520might%2520need%2520%2509%2509%2509%2509%2509%2509attention.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-item%2520danger-alert%2522%253EDanger%21%2520This%2520alert%2520box%2520indicates%2520a%2520dangerous%2520or%2520potentially%2520%2509%2509%2509%2509%2509negative%2520action.%253C%252Fdiv%253E%2520%2520%2520%250A%253C%252Fdiv%253E"
+                    style="width: 980px; height: 441px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="ui-name"> Instant-UI </div>
+        <p>Designed and built with all the love to help the community 👩‍💻</p>     
+    </footer>
+
+</body>
+</html>

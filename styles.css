@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("./Landingpage/layout.css");
-@import url("./Components/Avatar/Avatar.css");
-
+@import url("/Components/Alert/alert.css");
+@import url("/Components/Avatar/Avatar.css");
 
 html{
     margin: 0;
@@ -25,7 +25,28 @@ body{
     --landing-hover-color: #fafaf9;
     --black-font-color: #000000;
     --green-font-color:#059669;
-    --border-radius: 10rem;
+    --success-alert:#bbf7d0;
+    --danger-alert: #fee2e2;
+    --warning-alert: #fef3c7;
+    --info-alert: #ccfbf1;
+    --primary-alert:#bfdbfe;
+    --secondary-alert: #d6d3d1;
+    --success-font-color: #14532d;
+    --danger-font-color: #991b1b;
+    --warning-font-color:#a16207;
+    --info-font-color: #134e4a;
+    --primary-font-color: #0c4a6e;
+    
+
+    /* padding/spacing/margin */
+
+    --alert-margin: 1rem;
+    --rem-border-radius:1rem;
+    
+
+
+
+
 
 }
 

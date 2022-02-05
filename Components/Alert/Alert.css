@@ -8,33 +8,30 @@
 
 .alert-item{
     padding: 2rem 4rem;
+    border-radius: var(--rem-border-radius);
 }
 
 .success-alert{
     background-color: var(--success-alert);
     margin: var(--alert-margin);
-    border-radius: var(--rem-border-radius);
     border: 3px solid var(--success-alert);
     color: var(--success-font-color);
 }
 .danger-alert{
     background-color: var(--danger-alert);
     margin: var(--alert-margin);
-    border-radius: var(--rem-border-radius);
     border: 3px solid var(--danger-alert);
     color: var(--danger-font-color);
 }
 .info-alert{
     background-color: var(--info-alert);
     margin: var(--alert-margin);
-    border-radius: var(--rem-border-radius);
     border: 3px solid var(--info-alert);
     color: var(--info-font-color);
 }
 .warn-alert{
     background-color: var(--warning-alert);
     margin: var(--alert-margin);
-    border-radius: var(--rem-border-radius);
     border: 3px solid var(--warning-alert);
     color: var(--warning-font-alert);
 }
@@ -42,14 +39,12 @@
 .primary-alert{
     background-color: var(--primary-alert);
     margin: var(--alert-margin);
-    border-radius: var(--rem-border-radius);
     border: 3px solid var(--primary-alert);
     color: var(--primary-font-color);
 }
 .secondary-alert{
     background-color: var(--secondary-alert);
     margin: var(--alert-margin);
-    border-radius: var(--rem-border-radius);
     border: 3px solid var(--secondary-alert);
 }
 

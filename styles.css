@@ -3,6 +3,7 @@
 @import url("/Components/Alert/Alert.css");
 @import url("/Components/Avatar/Avatar.css");
 @import url("/Components/Badge/Badge.css");
+@import url("/Components/Button/Button.css");
 
 html{
     margin: 0;
@@ -39,13 +40,15 @@ body{
     --primary-font-color: #0c4a6e;
     --badge-bg-color: #dd3434;
     --inactive-color:#404040;
+    --pink-border-color:#f43f5e;
     
 
     /* padding/spacing/margin */
 
     --alert-margin: 1rem;
     --rem-border-radius:1rem;
-    --tenrem-border-radius:10rem
+    --tenrem-border-radius:10rem;
+    --std-btn-padding:1rem 2rem;
     
 
 

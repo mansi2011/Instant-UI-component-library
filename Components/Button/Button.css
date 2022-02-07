@@ -1,0 +1,73 @@
+.primary-btn{
+    padding: var(--std-btn-padding);
+    margin: 4rem;
+    border-radius: var(--rem-border-radius);
+    border-style: none;
+    background-color: var(--primary-font-color);
+    color: var(--white-font-color);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.button-container{
+    background-color: var(--landing-hover-color);
+    padding: 3rem 5rem;
+    text-align: center;
+}
+
+.signup-btn{
+    padding: var(--std-btn-padding);
+    border-style: none;
+    border-radius: var(--rem-border-radius);
+    /* border: 2px solid var(--pink-border-color); */
+    font-size: 1.5rem;
+    color: var(--pink-border-color);
+    font-weight: bold;
+    border: 1px solid var(--inactive-color);
+    background-color: var(--white-font-color);
+    cursor: pointer;
+}
+
+.signup-btn:hover{
+    border: 2px solid var(--pink-border-color);
+}
+
+.link-btn{
+    padding: 3rem 5rem;
+    color: var(--black-font-color);
+}
+
+.icon-btn{
+    color: var(--inactive-color);
+    opacity: 0.9;
+    font-size: 2rem;
+}
+
+a>.icon-info{
+    text-decoration: none;
+}
+.icon-info{
+    color: var(--black-font-color);
+    opacity: 1;
+    font-size: 1.2rem;
+    margin: 2rem 4rem;
+}
+
+.floating-btn-container{
+    background-color: var(--white-font-color);
+    height: 20rem;
+    width: 40rem;
+    position: relative;
+    box-shadow: 0.5rem 1rem 0.5 var(--inactive-color);
+    
+}
+
+.float-btn{
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    padding: var(--std-btn-padding);
+    font-size: 3rem;
+    color: var(--primary-font-color);
+    cursor: pointer;
+}

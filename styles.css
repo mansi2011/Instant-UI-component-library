@@ -2,6 +2,7 @@
 @import url("./Landingpage/layout.css");
 @import url("/Components/Alert/Alert.css");
 @import url("/Components/Avatar/Avatar.css");
+@import url("/Components/Badge/Badge.css");
 
 html{
     margin: 0;
@@ -36,6 +37,8 @@ body{
     --warning-font-color:#a16207;
     --info-font-color: #134e4a;
     --primary-font-color: #0c4a6e;
+    --badge-bg-color: #dd3434;
+    --inactive-color:#404040;
     
 
     /* padding/spacing/margin */
@@ -104,4 +107,14 @@ div a {
 
 header a:hover{
     color: var(--landing-fonts-color);
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carbon-container{
+    width: 100%;
 }

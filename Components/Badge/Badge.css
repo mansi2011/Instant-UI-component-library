@@ -1,0 +1,56 @@
+.icon-badge-container{
+    background-color: var(--landing-hover-color);
+}
+.icon{
+    position: relative; 
+}
+
+.icon-badge{
+    font-size: 5rem;
+    padding: 2rem 6rem;
+}
+
+.badge-info{
+    background-color: var(--badge-bg-color);
+    color: var(--white-font-color);   
+    position: absolute;
+    font-size: 2rem;
+    height:3rem;
+    width: 3rem;
+    border-radius: 10rem;
+    text-align: center;
+    left: 8rem;    
+}
+
+.avatar-badge-container{
+    padding: 4rem 8rem;
+    background-color: var(--landing-hover-color);
+}
+
+.avatar-badge-item{
+    padding: 2rem;
+}
+
+.user{
+    position: relative;
+}
+
+.status{ 
+    font-size: 15rem;
+    position: absolute;
+    right: 1.2rem;
+    bottom: -4.8rem;
+}
+
+.status-active{
+    color: var(--success-font-color); 
+}
+
+.status-dnd{
+    color: var(--badge-bg-color);
+}
+
+.status-inactive{
+    color: var(--inactive-color);
+}
+

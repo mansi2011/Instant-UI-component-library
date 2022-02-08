@@ -8,6 +8,7 @@
 @import url("/Components/Image/Image.css");
 @import url("/Components/Input/Input.css");
 @import url("/Components/Text/Text.css");
+@import url("/Components/List/List.css");
 
 html{
     margin: 0;

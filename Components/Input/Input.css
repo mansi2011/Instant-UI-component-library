@@ -1,0 +1,51 @@
+.flex-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.label-style{
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#fname{
+    width: 60rem;
+    height: 3rem;
+    border-radius: var(--rem-border-radius);
+    opacity: 0.2;
+}
+
+#address{
+    border-radius:var(--rem-border-radius);
+    border-width: 0.2rem;
+    opacity: 0.3;
+    padding: 2rem;
+}
+
+#email{
+    width: 40rem;
+    height: 3rem;
+    border-style: none;
+    border:1px solid var(--danger-font-color);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.error-style{
+    margin-top: 0;
+    padding-top: 0;
+    margin-right: auto;
+    color: var(--danger-font-color);
+    font-weight: bold;
+}
+
+
+.padding-bottom{
+    padding-bottom: var(--padding-bottom);
+}

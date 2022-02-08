@@ -1,0 +1,33 @@
+.text-style{
+    padding: var(--std-btn-padding);
+    font-size: 2rem;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-center{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text-grey{
+    color: var(--inactive-color);
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.para-heading{
+    padding: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.para-body{
+    max-width: 50%;
+}
+
+.para-margin{
+    margin: 2rem;
+}

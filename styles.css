@@ -6,6 +6,7 @@
 @import url("/Components/Button/Button.css");
 @import url("/Components/Card/Card.css");
 @import url("/Components/Image/Image.css");
+@import url("/Components/Input/Input.css");
 
 html{
     margin: 0;
@@ -52,6 +53,7 @@ body{
     --tenrem-border-radius:10rem;
     --std-btn-padding:1rem 2rem;
     --rem-padding:1rem;
+    --padding-bottom:0;
     
 
 

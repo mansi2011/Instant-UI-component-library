@@ -14,21 +14,21 @@
     opacity: 0.8;
 }
 
-#fname{
+.fname-style{
     width: 60rem;
     height: 3rem;
     border-radius: var(--rem-border-radius);
     opacity: 0.2;
 }
 
-#address{
+.address-style{
     border-radius:var(--rem-border-radius);
     border-width: 0.2rem;
     opacity: 0.3;
     padding: 2rem;
 }
 
-#email{
+.email{
     width: 40rem;
     height: 3rem;
     border-style: none;

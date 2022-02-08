@@ -7,6 +7,7 @@
 @import url("/Components/Card/Card.css");
 @import url("/Components/Image/Image.css");
 @import url("/Components/Input/Input.css");
+@import url("/Components/Text/Text.css");
 
 html{
     margin: 0;

@@ -5,6 +5,7 @@
 @import url("/Components/Badge/Badge.css");
 @import url("/Components/Button/Button.css");
 @import url("/Components/Card/Card.css");
+@import url("/Components/Image/Image.css");
 
 html{
     margin: 0;
@@ -121,5 +122,5 @@ header a:hover{
 }
 
 .carbon-container{
-    width: 100%;
+    max-width: 100%;
 }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0026fec354.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document| Lists</title>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="navbrand">
+        <i class="fa fa-italic" aria-hidden="true"></i><i class="brand">UI</i>
+        </div>
+        <ul class="nav-item">
+            <li class="menu-link">
+              <a class="option-link"  href="index.html">Home</a>
+            </li>
+            <li class="menu-link">
+              <a  class="option-link" href="#">Docs</a>
+            </li>
+        </ul>
+        <div class="icon-link">
+                <li class="menu-link"><i class="fa fa-github" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+            </div>
+    </nav>
+
+    <div class="drawer-container">
+        <aside class="sidebar-container">
+            <ul class="sidebar-item-list">
+                <a href="/Components/Avatar/Avatar.html" class="sidebar-item">Avatar</a>
+                <a href="/Components/Alert/Alert.html" class="sidebar-item">Alert</a>
+                <a href="/Components/Badge/Badge.html" class="sidebar-item">Badge</a>
+                <a href="/Components/Button/Button.html" class="sidebar-item">Button</a>
+                <a href="/Components/Card/Card.html" class="sidebar-item">Card</a>
+                <a href="/Components/Image/Image.html" class="sidebar-item">Images</a>
+                <a href="/Components/Input/Input.html" class="sidebar-item">Input</a>
+                <a href="/Components/Text/Text.html" class="sidebar-item">Text Utilities</a>
+                <a href="/Components/List/List.html" class="sidebar-item component-active">Lists</a>
+                <a href="" class="sidebar-item">Navigation</a>
+                <a href="" class="sidebar-item">Modal</a>
+                <a href="" class="sidebar-item">Rating</a>
+                <a href="" class="sidebar-item">Toast/Snackbar</a>
+                <a href="" class="sidebar-item">Simplified Grid</a>
+            </ul>
+        </aside>
+        <main class="main-container">
+            <div class="intro-container">
+               <h1>List</h1>
+               <p>A list can be used to show multiple related options or links.</p>
+            </div>
+            
+            <div class="list-container">
+                <h3 class="intro-container">Spaced</h3>
+                <ul class="flex-center">
+                    <li class="spaced-list-style">item 1</li>
+                    <li class="spaced-list-style">item 2</li>
+                    <li class="spaced-list-style">item 3</li>
+                    <li class="spaced-list-style">item 4</li>
+                </ul>
+            </div>
+
+            <div class="carbon-container">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=446&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522intro-container%2522%253ESpaced%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-style%2522%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-style%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-style%2522%253Eitem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-style%2522%253Eitem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A"
+                style="width: 1024px; height: 326px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <div class="list-container">
+                <h3 class="intro-container">Stacked</h3>
+                <ul class="flex-control">
+                    <li class="stacked-list-style">item 1</li>
+                    <li class="stacked-list-style">item 2</li>
+                    <li class="stacked-list-style">item 3</li>
+                    <li class="stacked-list-style">item 4</li>
+                </ul>
+            </div>
+
+            <div class="carbon-container">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=500&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522intro-container%2522%253EStacked%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522flex-control%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-style%2522%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-style%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-style%2522%253Eitem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked-list-style%2522%253Eitem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                style="width: 1024px; height: 309px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="ui-name"> Instant-UI </div>
+        <p>Designed and built with all the love to help the community 👩‍💻</p>     
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+.spaced-list-style{
+    display: inline;
+    padding: 3rem 8rem;
+    font-size: 2rem;
+}
+
+.stacked-list-style{
+    list-style-type: none;   
+}

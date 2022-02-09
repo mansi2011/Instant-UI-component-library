@@ -9,6 +9,7 @@
 @import url("/Components/Input/Input.css");
 @import url("/Components/Text/Text.css");
 @import url("/Components/List/List.css");
+@import url("/Components/Navigation/Navigation.css");
 
 html{
     margin: 0;

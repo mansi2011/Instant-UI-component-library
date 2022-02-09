@@ -1,0 +1,48 @@
+.navbar-container{
+    background-color: var(--black-font-color);
+    color: var(--white-font-color);
+}
+
+.nav-style{
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.header-container{
+    height: 400px;
+    overflow-y: scroll;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px 0.9 solid var(--secondary-alert) ;
+    
+ 
+ }
+ 
+ .header-container .navbar{
+     background-color: var(--black-font-color);
+     opacity: 0.9;
+     position: sticky;
+     top: 0;
+     padding: 1rem;
+ }
+ 
+ .items{
+     margin-left: auto;
+     padding: 0 10px;
+ }
+ 
+ .header-title{
+     color: var(--white-font-color);
+ }
+ 
+ .header-icons{
+     color: var(--white-font-color);
+     padding: 1rem;
+     font-size: larger;
+     display: inline;
+ }
+ 
+
+ 

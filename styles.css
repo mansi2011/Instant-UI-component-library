@@ -12,6 +12,7 @@
 @import url("/Components/Navigation/Navigation.css");
 @import url("/Components/Modal/Modal.css");
 @import url("/Components/Rating/Rating.css");
+@import url("/Components/Toast/Toast.css");
 
 html{
     margin: 0;
@@ -52,6 +53,8 @@ body{
     --gray-border:#f3f4f6;
     --dialog-btn-color:deepskyblue;
     --rating-color:#fde047;
+    --retry-font-control:#7e22ce;
+    --smoke-white: rgb(225, 229, 228);
     
 
     /* padding/spacing/margin */

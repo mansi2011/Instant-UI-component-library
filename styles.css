@@ -14,6 +14,7 @@
 @import url("/Components/Rating/Rating.css");
 @import url("/Components/Toast/Toast.css");
 @import url("/Components/Simplified-Grid/Grid.css");
+@import url("/Components/Slider/Slider.css");
 
 html{
     margin: 0;

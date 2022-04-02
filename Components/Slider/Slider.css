@@ -1,0 +1,17 @@
+.slide-container{
+   width: max-content; 
+   margin: 0 auto;
+}
+
+.slider{
+    padding: 3rem;
+    cursor: pointer;
+}
+
+.slide-container input{
+    width: 100%;
+}
+
+.slider-icon{
+    padding:1rem;
+}

@@ -10,6 +10,7 @@
 @import url("/Components/Text/Text.css");
 @import url("/Components/List/List.css");
 @import url("/Components/Navigation/Navigation.css");
+@import url("/Components/Modal/Modal.css");
 
 html{
     margin: 0;
@@ -47,6 +48,8 @@ body{
     --badge-bg-color: #dd3434;
     --inactive-color:#404040;
     --pink-border-color:#f43f5e;
+    --gray-border:#f3f4f6;
+    --dialog-btn-color:deepskyblue;
     
 
     /* padding/spacing/margin */
@@ -128,4 +131,6 @@ header a:hover{
 
 .carbon-container{
     max-width: 100%;
+    padding-bottom: 2rem;
 }
+

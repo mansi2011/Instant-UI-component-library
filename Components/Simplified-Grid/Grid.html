@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0026fec354.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document| Simplified Grid</title>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="navbrand">
+        <i class="fa fa-italic" aria-hidden="true"></i><i class="brand">UI</i>
+        </div>
+        <ul class="nav-item">
+            <li class="menu-link">
+              <a class="option-link"  href="index.html">Home</a>
+            </li>
+            <li class="menu-link">
+              <a  class="option-link" href="#">Docs</a>
+            </li>
+        </ul>
+        <div class="icon-link">
+                <li class="menu-link"><i class="fa fa-github" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+            </div>
+    </nav>
+
+    <div class="drawer-container">
+        <aside class="sidebar-container">
+            <ul class="sidebar-item-list">
+                <a href="/Components/Avatar/Avatar.html" class="sidebar-item">Avatar</a>
+                <a href="/Components/Alert/Alert.html" class="sidebar-item">Alert</a>
+                <a href="/Components/Badge/Badge.html" class="sidebar-item">Badge</a>
+                <a href="/Components/Button/Button.html" class="sidebar-item">Button</a>
+                <a href="/Components/Card/Card.html" class="sidebar-item">Card</a>
+                <a href="/Components/Image/Image.html" class="sidebar-item">Images</a>
+                <a href="/Components/Input/Input.html" class="sidebar-item">Input</a>
+                <a href="/Components/Text/Text.html" class="sidebar-item">Text Utilities</a>
+                <a href="/Components/List/List.html" class="sidebar-item">Lists</a>
+                <a href="/Components/Navigation/Navigation.html" class="sidebar-item">Navigation</a>
+                <a href="/Components/Modal/Modal.html" class="sidebar-item">Modal</a>
+                <a href="/Components/Rating/Rating.html" class="sidebar-item">Rating</a>
+                <a href="/Components/Toast/Toast.html" class="sidebar-item">Toast</a>
+                <a href="/Components/Simplified-Grid/Grid.html" class="sidebar-item component-active">Simplified-Grid</a>
+
+            </ul>
+        </aside>
+        <main class="main-container">
+            <div class="intro-container">
+               <h1>Simplified-Grid</h1>
+               <p>The Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+               </p>
+            </div>
+
+            <div>
+                <h3 class="intro-container">Grid Columns</h3>
+                <div id="grid-col">
+                    <div class="cell">Cell 1</div> <div class="cell">Cell 3</div>
+                    <div class="cell">Cell 5</div> <div class="cell">Cell 2</div>
+                    <div class="cell">Cell 4</div> <div class="cell">Cell 6</div>
+                </div>
+
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=589&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch4%253EGrid%2520Columns%253C%252Fh4%253E%250A%253Cdiv%2520id%253D%2522grid-col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25201%253C%252Fdiv%253E%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25203%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25205%253C%252Fdiv%253E%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25202%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25204%253C%252Fdiv%253E%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25206%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 589px; height: 274px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h3 class="intro-container">Grid Rows</h3>
+                <div id="grid-row">
+                    <div class="cell">Cell 1</div> <div class="cell">Cell 2</div>
+                    <div class="cell">Cell 3</div> <div class="cell">Cell 4</div>
+                    <div class="cell">Cell 5</div> <div class="cell">Cell 6</div>
+                </div>
+
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=616&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch4%253EGrid%2520Rows%253C%252Fh4%253E%250A%253Cdiv%2520id%253D%2522grid-row%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25201%253C%252Fdiv%253E%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25203%253C%252Fdiv%253E%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25204%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25205%253C%252Fdiv%253E%2520%253Cdiv%2520class%253D%2522cell%2522%253ECell%25206%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 616px; height: 274px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                
+            </div>
+            
+            
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="ui-name"> Instant-UI </div>
+        <p>Designed and built with all the love to help the community 👩‍💻</p>     
+    </footer>
+
+</body>
+</html>

@@ -13,6 +13,7 @@
 @import url("/Components/Modal/Modal.css");
 @import url("/Components/Rating/Rating.css");
 @import url("/Components/Toast/Toast.css");
+@import url("/Components/Simplified-Grid/Grid.css");
 
 html{
     margin: 0;

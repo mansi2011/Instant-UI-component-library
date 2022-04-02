@@ -13,6 +13,7 @@
 @import url("/Components/Modal/Modal.css");
 @import url("/Components/Rating/Rating.css");
 @import url("/Components/Toast/Toast.css");
+@import url("/Components/Simplified-Grid/Grid.css");
 
 html{
     margin: 0;
@@ -66,10 +67,6 @@ body{
     --rem-padding:1rem;
     --padding-bottom:0;
     
-
-
-
-
 
 }
 

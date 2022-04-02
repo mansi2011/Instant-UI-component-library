@@ -1,0 +1,27 @@
+#grid-col {
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    grid-gap: 10px;
+    grid-auto-flow: column;
+    width: 40rem;
+    margin: 0 auto;
+
+  }
+
+div.cell {
+    background: var(--primary-alert);
+    border: 1px solid var(--white-font-color);
+    padding: 10px;
+    text-align: center;
+  }
+
+
+#grid-row {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-template-rows: 50% 50%;
+   width: 40rem;
+    margin: 0 auto;
+}
+  
+

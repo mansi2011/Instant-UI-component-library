@@ -1,5 +1,4 @@
 .favorites{
-    /* border: 1px solid var(--black-font-color); */
     background-color: var(--secondary-alert);
     box-shadow: 0.5rem 0.5rem var(--gray-border);
     width: 30rem;

@@ -1,0 +1,89 @@
+.dialogs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-container1{
+    border: 0.1rem solid var(--black-font-color);
+    border-radius: 2rem;
+    width:  40rem;
+    height: 20rem;
+    padding: 0 0 2rem 0;
+    box-shadow: 0.5rem 1rem var(--gray-border);
+
+
+   
+}
+
+.dialog-heading{
+
+    font-size: larger;
+    color: var(--black-font-color);
+    font-weight: bold;
+   
+}
+
+.dialog-info{
+  width: 30rem;
+} 
+
+
+
+
+.dialog-btn{
+  
+    border-style: none;
+    color: var(--dialog-btn-color);
+    font-size: large;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 0 3rem;
+    cursor: pointer;
+
+
+    
+}
+
+.dialog-container2{
+    padding: 1.2rem;
+    border: 0.1rem solid var(--gray-border) ;
+    width: 30rem;
+    border-radius: 1rem;
+
+}
+
+.dialog-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-item{
+    padding: 1rem;
+    width: 80%;
+} 
+
+.label{
+    padding: 2rem;
+}
+
+.option-dialog-btn{
+    padding: 0.8rem;
+    margin-left: 14rem;
+}
+
+.dialog-btn1{
+    padding: 0.8rem;
+    border-style: none;
+    background-color: transparent;
+    font-size: medium;
+    color: var(--inactive-color)
+    
+
+}
+
+.dialog-title{
+    margin-left: 1.8rem;
+}

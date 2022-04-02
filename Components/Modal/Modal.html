@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0026fec354.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document| Lists</title>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="navbrand">
+        <i class="fa fa-italic" aria-hidden="true"></i><i class="brand">UI</i>
+        </div>
+        <ul class="nav-item">
+            <li class="menu-link">
+              <a class="option-link"  href="index.html">Home</a>
+            </li>
+            <li class="menu-link">
+              <a  class="option-link" href="#">Docs</a>
+            </li>
+        </ul>
+        <div class="icon-link">
+                <li class="menu-link"><i class="fa fa-github" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li class="menu-link"><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+            </div>
+    </nav>
+
+    <div class="drawer-container">
+        <aside class="sidebar-container">
+            <ul class="sidebar-item-list">
+                <a href="/Components/Avatar/Avatar.html" class="sidebar-item">Avatar</a>
+                <a href="/Components/Alert/Alert.html" class="sidebar-item">Alert</a>
+                <a href="/Components/Badge/Badge.html" class="sidebar-item">Badge</a>
+                <a href="/Components/Button/Button.html" class="sidebar-item">Button</a>
+                <a href="/Components/Card/Card.html" class="sidebar-item">Card</a>
+                <a href="/Components/Image/Image.html" class="sidebar-item">Images</a>
+                <a href="/Components/Input/Input.html" class="sidebar-item">Input</a>
+                <a href="/Components/Text/Text.html" class="sidebar-item">Text Utilities</a>
+                <a href="/Components/List/List.html" class="sidebar-item component-active">Lists</a>
+                <a href="/Components/Navigation/Navigation.html" class="sidebar-item">Navigation</a>
+                <a href="/Components/Modal/Modal.html" class="sidebar-item">Modal</a>
+            </ul>
+        </aside>
+        <main class="main-container">
+            <div class="intro-container">
+               <h1>Modal</h1>
+               <p>Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.</p>
+            </div>
+            
+            <div class="dialogs">
+                <div class="dialog-container1 dialogs ">
+                    <div class="dialog-header dialogs">
+                        <p class="dialog-heading">Use location service?</p>
+                        <p class="dialog-info">Lets us help apps determine your location</p>
+                    </div>
+                
+                    <div class="dialog-footer flex-center">
+                        <button class="dialog-btn">Cancel</button>
+                        <button class="dialog-btn">Action</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="carbon-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=856&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522dialog-container1%2520dialogs%2520%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522dialog-header%2520dialogs%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522dialog-heading%2522%253EUse%2520location%2520service%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522dialog-info%2522%253ELets%2520us%2520help%2520apps%2520determine%2520your%2520location%253C%252Fp%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522dialog-footer%2520flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dialog-btn%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dialog-btn%2522%253EAction%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 672px; height: 360px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <br><br>
+                <div class="dialog-container2">
+                    <div>
+                        <h3 class="dialog-title">Phone Ringtone</h3>
+                        <hr>
+                    </div>
+                    <div>
+                            <form action="" class="dialog-items">
+                            <div class="radio-item">
+                                <input  type="radio" value="none" name="ringtone" />
+                                <label class="label"> None</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" value="callisto" name="ringtone" />
+                                <label class="label"> Callisto</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" value="luna" name="ringtone" />
+                                <label class="label"> Luna</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" value="oberon" name="ringtone" />
+                                <label class="label"> Oberon</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" value="Phobos" name="ringtone" />
+                                <label class="label"> Phobos</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" value="Ding" name="ringtone" />
+                                <label class="label"> Ding</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" value="Pong" name="ringtone" />
+                                <label class="label"> Pong</label>
+                            </div>
+                            </form>
+                    </div>
+                    <hr>
+                    <div class="option-dialog-btn flex-center ">
+                        <a href=""><button class="dialog-btn1">CANCEL</button></a>
+                        <a href=""><button class="dialog-btn1">OK</button></a>
+                    </div>
+                </div>
+                <br><br>
+                <div class="carbon-container ">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=664&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522dialog-container2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522dialog-title%2522%253EPhone%2520Ringtone%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520action%253D%2522%2522%2520class%253D%2522dialog-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520%2520type%253D%2522radio%2522%2520value%253D%2522none%2522%2520name%253D%2522ringtone%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%253E%2520None%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522callisto%2522%2520name%253D%2522ringtone%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%253E%2520Callisto%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522luna%2522%2520name%253D%2522ringtone%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%253E%2520Luna%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522oberon%2522%2520name%253D%2522ringtone%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%253E%2520Oberon%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Phobos%2522%2520name%253D%2522ringtone%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%253E%2520Phobos%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Ding%2522%2520name%253D%2522ringtone%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%253E%2520Ding%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522radio-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520value%253D%2522Pong%2522%2520name%253D%2522ringtone%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522label%2522%253E%2520Pong%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Chr%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522option-dialog-btn%2520flex-center%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Cbutton%2520class%253D%2522dialog-btn1%2522%253ECANCEL%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Cbutton%2520class%253D%2522dialog-btn1%2522%253EOK%253C%252Fbutton%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 664px; height: 200px; border:0; transform: scale(1); overflow:hidden; "
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+            
+<!-- 
+            <div class="carbon-container">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=446&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=48px&ph=32px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522intro-container%2522%253ESpaced%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-style%2522%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-style%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-style%2522%253Eitem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-style%2522%253Eitem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A"
+                style="width: 1024px; height: 326px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div> -->
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="ui-name"> Instant-UI </div>
+        <p>Designed and built with all the love to help the community 👩‍💻</p>     
+    </footer>
+
+</body>
+</html>

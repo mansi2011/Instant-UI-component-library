@@ -1,0 +1,32 @@
+.favorites{
+    /* border: 1px solid var(--black-font-color); */
+    background-color: var(--secondary-alert);
+    box-shadow: 0.5rem 0.5rem var(--gray-border);
+    width: 30rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.favorites p{
+    font-weight: 300;
+    font-size: large;
+}
+
+.rating{
+    background-color: var(--white-font-color);
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem var(--gray-border);
+    width: 60rem;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    border-radius: 2rem;
+}
+
+.review .fa {
+    color: var(--rating-color);
+}
+
+.review p{
+    color: var(--inactive-color);
+    font-size: small;
+}
